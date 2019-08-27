@@ -1,6 +1,6 @@
 **Homework**
 
-* * Whats the response for joke ID 2 with parameters firstName and lastName (use your actual name)? * *
+* Whats the response for joke ID 2 with parameters firstName and lastName (use your actual name)? *
 ```Request: http://api.icndb.com/jokes/2?firstName=Sergii&amp;lastName=Khromchenko
 Response:
 {
@@ -12,7 +12,7 @@ Response:
     }
 }```
 
-* * Lookup what artist has ID 1883403? * *
+* Lookup what artist has ID 1883403? *
 ```Request: https://itunes.apple.com/lookup?id=1883403
 Response:
 {
@@ -26,9 +26,9 @@ Response:
   "primaryGenreId": 20
 }```
 
-* * What value does this artist have for the attribute "primaryGenreName"? * * “Alternative"
+* What value does this artist have for the attribute "primaryGenreName"? *“Alternative"
 
-* * Search for the term "The Beatles" and limit the results set to 5. Write the response. * *
+* Search for the term "The Beatles" and limit the results set to 5. Write the response. *
 ```Request: https://itunes.apple.com/search?term=the+beatles&limit=5
 Response:
 {
@@ -46,17 +46,17 @@ Response:
 "previewUrl":"https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview128/v4/9f/d3/e7/9fd3e794-0283-2460-a7cb-770f12c30f6d/mzaf_4329926607449068829.plus.aac.p.m4a", "artworkUrl30":"https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/6f/d1/7a/6fd17a58-e715-54e1-e9d3-d63575108a4e/source/30x30bb.jpg", "artworkUrl60":"https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/6f/d1/7a/6fd17a58-e715-54e1-e9d3-d63575108a4e/source/60x60bb.jpg", "artworkUrl100":"https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/6f/d1/7a/6fd17a58-e715-54e1-e9d3-d63575108a4e/source/100x100bb.jpg", "collectionPrice":19.99, "trackPrice":1.29, "releaseDate":"1968-11-22T12:00:00Z", "collectionExplicitness":"notExplicit", "trackExplicitness":"notExplicit", "discCount":3, "discNumber":1, "trackCount":17, "trackNumber":4, "trackTimeMillis":188960, "country":"USA", "currency":"USD", "primaryGenreName":"Rock", "isStreamable":true}]
 }```
 
-* * Search for the terms "Feist", "1234" and limit the results set to 1. What value does this artist have for the attribute "collectionId"? * *
+* Search for the terms "Feist", "1234" and limit the results set to 1. What value does this artist have for the attribute "collectionId"? *
 ```Request: https://itunes.apple.com/search?term=Feist+1234&limit=1
 “collectionId”: 1443131875
 ```
 
 
-* * Deck of Cards API. JS * *
+* Deck of Cards API. JS *
 Here is a JS version. Currently waiting to Xcode to downloaded as rails can’t be installed without it. Since it’s already taking a while decided to finish it in JS first
 ```https://github.com/skhromchenko/goatjs```
 
-* * Deck of Cards API. Ruby * * 
+* Deck of Cards API. Ruby *
 Feel free to through trash at me after this first experience :)
 ```https://github.com/skhromchenko/goat-ruby```
 
