@@ -1,7 +1,8 @@
 **Homework**
 
 Whats the response for joke ID 2 with parameters firstName and lastName (use your actual name)?
-```Request: http://api.icndb.com/jokes/2?firstName=Sergii&amp;lastName=Khromchenko
+```
+Request: http://api.icndb.com/jokes/2?firstName=Sergii&amp;lastName=Khromchenko
 Response:
 {
     "type": "success",
